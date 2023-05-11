@@ -1,0 +1,679 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 964px;
+    margin: 0 auto;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 708px;
+    margin: 0 auto;
+  }
+  .hamburger {
+    display: none;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .main__image {
+    width: 569px;
+  }
+  .main__content {
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  .about__content {
+    flex-direction: column-reverse;
+  }
+  .about__content {
+    width: 437px;
+    margin: 80px auto 100px;
+  }
+  .img__dogcat {
+    padding: 100px 0 0 0;
+  }
+  .about__item p {
+    text-align: justify;
+  }
+  .friends {
+    min-height: 0;
+  }
+  .friends__content {
+    overflow: hidden;
+  }
+  .friends__title h3{
+    padding: 80px 154px 60px;
+  }
+  .friends__carusel {
+    justify-content: space-between;
+    gap: 30px 40px;
+    margin: 0 64px 0;
+  }
+  .friends__carusel-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .friends__button-left {
+    left: -64px;
+  }
+  .friends__button-right {
+    right: -64px;
+  }
+  .button__friends {
+    display: block;
+    margin: 60px auto 100px;
+  }
+  .help {
+    min-height: 0;
+  }
+  .help__box {
+    width: 630px;
+  }
+  .donation__content {
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+  .donation__text {
+    width: 380px;
+    text-align: justify;
+  }
+  .footer__content {
+    flex-direction: column;
+  }
+  .footer__img {
+    padding-top: 65px;
+  }
+  .footer__box-content {
+    width: 708px;
+    padding-top: 30px;
+    justify-content: center;
+    gap: 60px;
+  }
+  .footer__info, .footer__address {
+    width: 278px;
+  }
+
+    /* ** Modal ** */
+    .modal__main {
+      width: 630px;
+      height: 350px;
+    }
+    .modal__main img {
+
+    }
+    .modal__container {
+      margin: 10px;
+    }
+    .modal__title {
+      padding-bottom: 10px;
+
+    }
+    .modal__subtitle {
+      padding-bottom: 20px;
+
+    }
+    .modal__text {
+      padding-bottom: 24px;
+      text-align: justify;
+  
+    }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 365px;
+    margin: 0 auto;
+  }
+  .hamburger {
+    display: block;
+  }
+  .header__nav {
+    display: none;
+  }
+  .main__content {
+
+  }
+  .main__content h2{
+    display: block;
+    text-align: center;
+    width: 300px;
+    font-size: 30px;
+    line-height: 32px;
+    margin: 0 auto;
+  }
+  .main__content p {
+    width: 340px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+  }
+  .button {
+    display: block;
+    margin: 0 auto;
+  }
+  .main__image {
+    width: 300px;
+  }
+  .about__item {
+    width: 340px;
+  }
+  .about__item h3 {
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    width: 340px;
+    padding-top: 42px;
+  }
+  .about__item p {
+    width: 340px;
+  }
+  .img__dogcat {
+    padding: 48px 0 0 0;
+  }
+  .img__dogcat img {
+    width: 300px;
+  }
+  .about__content {
+    margin: 0 auto 42px;
+  }
+  .help__box-item img {
+    width: 50px;
+    padding-bottom: 20px;
+  }
+  .img__dogc img {
+    width: 300px;
+  }
+  .friends__title h3 {
+    font-size: 30px;
+    padding: 42px 0;
+  }
+  .friends__carusel {
+    margin: 0 auto;
+    gap: 0;
+    width: 340px;
+    justify-content: center;
+  }
+  .friends__carusel-grid {
+    margin: 0 auto;
+    gap: 0;
+    width: 270px;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin: 0 15px;
+  }
+  .friends__button {
+    gap: 10px;
+  }
+  .friends__button-left {
+    left: 0px;
+  }
+  .friends__button-right {
+    right: 0px;
+  }
+  .box-item__title {
+    font-size: 15px;
+  }
+  .box-item {
+
+  }
+  .box-item img {
+
+  }
+  .button__friends {
+    margin: 42px auto;
+  }
+  .help__title {
+    font-size: 30px;
+    padding: 42px 0;
+  }
+  .help__box {
+    width: 340px;
+    gap: 30px;
+    margin-bottom: 42px;
+  }
+  .help__box-item {
+    width: 130px;
+  }
+  .donation__content {
+    margin: 42px 0;
+  }
+  .donation__item {
+    width: 360px;
+    margin: 0 auto;
+  }
+  .donation__title {
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    width: 360px;
+  }
+  .donation__subtitle {
+    width: 360px;
+    text-align: center;
+  }
+  #cardnum {
+    width: 200px;
+    padding-left: 15px;
+  }
+  .donation__card {
+    width: 360px;
+  }
+  .donation__text {
+    width: 360px;
+  }
+  .footer__box-content {
+    flex-direction: column;
+  }
+  .footer__info-title {
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    width: 300px;
+  }
+  .footer__address-title {
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    width: 280px;
+  }
+  .footer__img {
+    width: 300px;
+  }
+  .footer__address p,
+  .footer__info p {
+    font-size: 20px;
+  }
+
+    /* ** Modal ** */
+    .modal__main {
+      width: 240px;
+      height: 370px;
+    }
+    .modal__main img {
+    display: none;
+    }
+    .modal__container {
+      margin: 10px;
+    }
+    .modal__title {
+      padding-bottom: 10px;
+      text-align: center;
+    }
+    .modal__subtitle {
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .modal__text {
+      padding-bottom: 24px;
+      text-align: justify;
+  
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 315px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .header__nav {
+    display: none;
+  }
+  .main {
+    align-items: none;
+  }
+  .main__content {
+    max-width: 280px;
+  }
+  .main__content h2{
+    display: block;
+    text-align: center;
+    width: 200px;
+    font-size: 25px;
+    line-height: 32px;
+    margin: 0 auto;
+  }
+  .main__content p {
+    width: 280px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .button {
+    display: block;
+    margin: 0 auto;
+  }
+  .main__image {
+    width: 260px;
+  }
+  .about__item {
+    width: 300px;
+  }
+  .about__item h3 {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 300px;
+    padding-top: 42px;
+  }
+  .about__item p {
+    width: 300px;
+  }
+  .img__dogcat {
+    padding: 48px 0 0 0;
+  }
+  .img__dogcat img {
+    width: 260px;
+  }
+  .about__content {
+    margin: 0 auto 42px;
+  }
+  .help__title {
+    font-size: 25px;
+    padding: 42px 0;
+  }
+  .help__box {
+    width: 290px;
+    gap: 30px;
+    margin-bottom: 42px;
+  }
+  .help__box-item {
+    width: 130px;
+  }
+  .box-item__title {
+    font-size: 15px;
+  }
+  .help__box-item img {
+    width: 50px;
+    padding-bottom: 20px;
+  }
+  .img__dogc img {
+    width: 260px;
+  }
+  .friends__title h3 {
+    font-size: 25px;
+    padding: 42px 0;
+  }
+  .friends__carusel {
+    margin: 0 auto;
+    gap: 0;
+    width: 300px;
+    justify-content: center;
+  }
+  .friends__carusel-grid {
+    margin: 0 auto;
+    gap: 0;
+    width: 270px;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin: 0 15px;
+  }
+  .friends__button {
+    gap: 10px;
+  }
+  .footer__img {
+    width: 260px;
+  }
+  .button__friends {
+    margin: 42px auto;
+  }
+  .donation__content {
+    margin: 42px 0;
+  }
+  .donation__item {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .about__item p {
+    width: 300px;
+  }
+  .donation__title {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 300px;
+  }
+  .donation__subtitle {
+    width: 300px;
+  }
+  #cardnum {
+    width: 200px;
+    padding-left: 15px;
+  }
+  .donation__card {
+    width: 300px;
+  }
+  .donation__text {
+    width: 300px;
+  }
+  .footer__box-content {
+    flex-direction: column;
+  }
+  .footer__info-title {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 280px;
+  }
+  .footer__address-title {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 280px;
+  }
+  .footer__address p,
+  .footer__info p {
+    font-size: 20px;
+  }
+
+    /* ** Modal ** */
+    .modal__main {
+      width: 240px;
+      height: 370px;
+    }
+    .modal__main img {
+    display: none;
+    }
+    .modal__container {
+      margin: 10px;
+    }
+    .modal__title {
+      padding-bottom: 10px;
+      text-align: center;
+    }
+    .modal__subtitle {
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .modal__text {
+      padding-bottom: 24px;
+      text-align: justify;
+  
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    width: 300px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .main {
+    align-items: none;
+  }
+  .main__content {
+    max-width: 280px;
+  }
+  .main__content h2{
+    display: block;
+    text-align: center;
+    width: 200px;
+    font-size: 25px;
+    line-height: 32px;
+    margin: 0 auto;
+  }
+  .main__content p {
+    width: 280px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .button {
+    display: block;
+    margin: 0 auto;
+  }
+  .main__image {
+    width: 260px;
+  }
+  .about__item {
+    width: 280px;
+  }
+  .about__item h3 {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 280px;
+    padding-top: 42px;
+  }
+  .about__item p {
+    width: 280px;
+  }
+  .img__dogcat {
+    padding: 48px 0 0 0;
+  }
+  .img__dogcat img {
+    width: 260px;
+  }
+  .about__content {
+    margin: 0 auto 42px;
+  }
+  .help__title {
+    font-size: 25px;
+    padding: 42px 0;
+  }
+  .help__box {
+    width: 280px;
+    gap: 20px;
+    margin-bottom: 42px;
+  }
+  .help__box-item {
+    width: 130px;
+  }
+  .box-item__title {
+    font-size: 15px;
+  }
+  .help__box-item img {
+    width: 50px;
+    padding-bottom: 20px;
+  }
+  .img__dogc img {
+    width: 260px;
+  }
+  .friends__title h3 {
+    font-size: 25px;
+    padding: 42px 0;
+  }
+  .friends__carusel {
+    margin: 0 auto;
+    gap: 0;
+    width: 280px;
+    justify-content: center;
+  }
+  .friends__carusel-grid {
+    margin: 0 auto;
+    gap: 0;
+    width: 270px;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin: 0 15px;
+  }
+  .friends__button {
+    gap: 10px;
+  }
+  .footer__img {
+    width: 260px;
+  }
+  .button__friends {
+    margin: 42px auto;
+  }
+  .donation__content {
+    margin: 42px 0;
+  }
+  .donation__item {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .donation__title {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 280px;
+  }
+  .donation__subtitle {
+    width: 280px;
+  }
+  #cardnum {
+    width: 200px;
+    padding-left: 15px;
+  }
+  .donation__card {
+    width: 280px;
+  }
+  .donation__text {
+    width: 280px;
+  }
+  .footer__box-content {
+    flex-direction: column;
+  }
+  .footer__info-title {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 280px;
+  }
+  .footer__address-title {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 280px;
+  }
+  .footer__address p,
+  .footer__info p {
+    font-size: 20px;
+  }
+
+  /* ** Modal ** */
+  .modal__main {
+    width: 240px;
+    height: 370px;
+  }
+  .modal__main img {
+  display: none;
+  }
+  .modal__container {
+    margin: 10px;
+  }
+  .modal__title {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .modal__subtitle {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .modal__text {
+    padding-bottom: 24px;
+    text-align: justify;
+
+  }
+}
